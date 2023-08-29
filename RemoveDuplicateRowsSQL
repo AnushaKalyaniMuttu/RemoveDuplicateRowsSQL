@@ -1,0 +1,1 @@
+delete from table where id=select id from table group by id where count(id)>1;
